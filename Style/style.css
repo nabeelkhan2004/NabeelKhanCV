@@ -1,0 +1,14 @@
+.body { display: flex;
+    justify-content: center;
+background-color: #f8e3ea;
+
+}
+
+.page {
+    position: fixed;
+    top: 10%;
+    bottom: 10%;
+    /*min-height: 650px;*/
+    width: 90%;
+    background-color: #ffffff;
+}
