@@ -4,11 +4,20 @@ background-color: #f8e3ea;
 
 }
 
+.img {
+position: fixed;
+height: 90%;
+z-index: 2;
+top: 5%;
+bottom: 2%;
+left: 12%;    
+}
+
+
 .page {
     position: fixed;
     top: 10%;
     bottom: 10%;
-    /*min-height: 650px;*/
     width: 90%;
     background-color: #ffffff;
 }
