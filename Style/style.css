@@ -4,20 +4,220 @@ background-color: #f8e3ea;
 }
 
 .img {
-position: fixed;
-width: 34%;
+position: absolute;
+width: 530px;
 z-index: 2;
-top: 5%;
-bottom: 2%;
+top: 50%;
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
 left: 12%;
-box-shadow: 0px 10px 100px 20px #8f8f8f;
-
+box-shadow: 0px 10px 100px 20px #b6b5b5;
 }
 
 .page {
     position: fixed;
+    left: 5%;
     top: 10%;
     bottom: 10%;
-    width: 90%;
+    width: 75%;
     background-color: #ffffff;
 }
+
+.menubox {
+position: fixed;
+height: 100px;
+width: 300px;
+background-color: #c977f0;
+}
+
+.menu {
+
+width: 10%;
+position: absolute;
+left: 17%;
+top: 30%;
+
+}
+
+.Nabeel {
+
+position: absolute;
+bottom: 30%;
+left: 14.5%;
+z-index: 3;
+font-family: 'poppins', sans-serif;
+font-size: 40px;
+color: #ffffff;
+letter-spacing: 15px;
+
+}
+
+/* .links {
+    z-index: 3;
+    position: absolute;
+    width: 300%;
+    bottom: 22%;
+    left: 23%;
+    letter-spacing: 15px;
+} */
+
+.facebook {
+position: absolute;
+bottom: 25%;
+left: 18%;
+z-index: 3;
+width: 2%;
+}
+
+.instagram {
+position: absolute;
+bottom: 25%;
+left: 22%;
+z-index: 3;
+width: 2%;
+}
+
+.linkedin {
+position: absolute;
+bottom: 25%;
+left: 26%;
+z-index: 3;
+width: 2%;
+}
+
+.twitter {
+position: absolute;
+bottom: 25%;
+left: 30%;
+z-index: 3;
+width: 2%;
+}
+
+.profile {
+    position: absolute;
+    top: 25%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 7.5%;
+    z-index: 3;
+    max-width: 2%;
+    height: auto;
+
+}
+
+.chat {
+    position: absolute;
+    top: 33%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 7.5%;
+    z-index: 3;
+    max-width: 2%;
+    height: auto;
+
+
+}
+
+.pencil {
+    position: absolute;
+    top: 41%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 7.5%;
+    z-index: 3;
+    max-width: 2%;
+    height: auto;
+
+
+}
+
+.glasses {
+    position: absolute;
+    top: 49%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 7.5%;
+    z-index: 3;
+    max-width: 2%;
+    height: auto;
+
+
+}
+
+.bag {
+    position: absolute;
+    top: 57%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 7.5%;
+    z-index: 3;
+    max-width: 2%;
+    height: auto;
+
+
+}
+
+.download {
+    position: absolute;
+    bottom: 10%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 7%;
+    z-index: 3;
+    max-width: 3%;
+    height: auto;
+
+
+}
+
+.text {
+left: 42%;
+right: 23%;
+top: 20%;
+position: fixed;
+text-align: justify;
+font-family: 'poppins', sans-serif;
+}
+
+.services {
+display: flex;
+justify-content: space-around;
+
+}
+
+/* .dev{
+position: relative;
+top: 50px;
+
+} */
+
+.display {
+    position: absolute;
+    top: -50px;
+    width: 40px;
+    height: auto;
+
+
+}
+
+.dev {
+position: relative;
+top: 50px;
+width: 300px;
+text-align: justify;
+
+}
+
+.seologo {
+    position: absolute;
+    top: -50px;
+    width: 40px;
+    height: auto;
+}
+
+.seo{
+    position: relative;
+    top: 50px;
+    width: 300px;
+    text-align: justify;
+        }
